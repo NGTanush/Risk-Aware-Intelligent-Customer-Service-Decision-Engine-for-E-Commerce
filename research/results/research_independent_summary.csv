@@ -1,0 +1,2 @@
+Total Benchmark Queries,In-Domain Queries,Out-of-Domain Queries,High-Risk Queries,Overall Automation Coverage (%),In-Domain Intent Accuracy (%),Selective Accuracy on Automated Queries (%),Human Escalation Rate (%),Clarification Rate (%),High-Risk False Automation Rate (%),High-Risk Automated Count,OOD False-Acceptance Rate (%),OOD Falsely Accepted Count
+250,215,35,76,19.6,39.53,51.02,53.6,26.8,7.89,6,14.29,5

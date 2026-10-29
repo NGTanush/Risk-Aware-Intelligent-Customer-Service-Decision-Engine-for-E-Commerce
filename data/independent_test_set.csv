@@ -1,0 +1,251 @@
+query,expected_intent,domain,risk,slice
+Can I find out where my shipment is currently located?,track_delivery,IN_DOMAIN,LOW,Normal In-Domain
+I need to see my previous purchases from last month.,order_history,IN_DOMAIN,LOW,Normal In-Domain
+What time does your downtown retail store open tomorrow?,store_opening_hours,IN_DOMAIN,LOW,Normal In-Domain
+Can you show me the physical address of your branch?,store_location,IN_DOMAIN,LOW,Normal In-Domain
+What are the standard delivery fees for residential shipping?,shipping_costs,IN_DOMAIN,LOW,Normal In-Domain
+Is the black leather handbag currently in stock?,availability,IN_DOMAIN,LOW,Normal In-Domain
+Can you display the technical specifications of this monitor?,product_information,IN_DOMAIN,LOW,Normal In-Domain
+When does the Black Friday discount period start?,sales_period,IN_DOMAIN,LOW,Normal In-Domain
+How long does express shipping normally take to arrive?,delivery_time,IN_DOMAIN,LOW,Normal In-Domain
+What are the terms of your 30-day return policy?,return_policy,IN_DOMAIN,LOW,Normal In-Domain
+What is your official policy regarding customer refunds?,refund_policy,IN_DOMAIN,LOW,Normal In-Domain
+Which credit cards and payment methods do you accept?,payment_methods,IN_DOMAIN,LOW,Normal In-Domain
+I would like to leave feedback regarding my recent store visit.,submit_feedback,IN_DOMAIN,LOW,Normal In-Domain
+I want to submit an idea for a new product feature.,submit_product_idea,IN_DOMAIN,LOW,Normal In-Domain
+How do I navigate through the mobile shopping application?,use_app,IN_DOMAIN,LOW,Normal In-Domain
+Add two units of the cotton t-shirt to my basket.,add_product,IN_DOMAIN,LOW,Normal In-Domain
+Please remove the extra socks from my shopping cart.,remove_product,IN_DOMAIN,LOW,Normal In-Domain
+Where can I track the courier van delivering my package?,track_delivery,IN_DOMAIN,LOW,Normal In-Domain
+Can I check whether the shoes are available at the mall store?,availability_in_store,IN_DOMAIN,LOW,Normal In-Domain
+Is this gaming console available on your web store?,availability_online,IN_DOMAIN,LOW,Normal In-Domain
+What are the weekend operating hours of your customer desk?,store_opening_hours,IN_DOMAIN,LOW,Normal In-Domain
+How much does same-day courier service cost?,shipping_costs,IN_DOMAIN,LOW,Normal In-Domain
+Could you show me my receipt history for this year?,order_history,IN_DOMAIN,LOW,Normal In-Domain
+What processor is inside this desktop computer?,product_information,IN_DOMAIN,LOW,Normal In-Domain
+Can you confirm if delivery takes 3 to 5 business days?,delivery_time,IN_DOMAIN,LOW,Normal In-Domain
+Do you ship orders internationally to Canada?,shipping_costs,IN_DOMAIN,LOW,Normal In-Domain
+Are there any clearance discounts running this week?,sales_period,IN_DOMAIN,LOW,Normal In-Domain
+I need to speak with customer support about general inquiries.,customer_service,IN_DOMAIN,LOW,Normal In-Domain
+Can I pay using PayPal or Apple Pay at checkout?,payment_methods,IN_DOMAIN,LOW,Normal In-Domain
+Does your company accept cash on delivery?,payment_methods,IN_DOMAIN,LOW,Normal In-Domain
+I want to share my thoughts on your new website layout.,submit_feedback,IN_DOMAIN,LOW,Normal In-Domain
+Where can I download your iOS mobile shopping app?,use_app,IN_DOMAIN,LOW,Normal In-Domain
+Check the transit progress of package #99214.,track_delivery,IN_DOMAIN,LOW,Normal In-Domain
+What is the warranty period for this electric kettle?,product_information,IN_DOMAIN,LOW,Normal In-Domain
+Does your store close early on public holidays?,store_opening_hours,IN_DOMAIN,LOW,Normal In-Domain
+Could you kindly inform me about the exact whereabouts of my consignment?,track_delivery,IN_DOMAIN,LOW,Complex Paraphrase
+I am keen to inspect all items acquired in my prior transactions.,order_history,IN_DOMAIN,LOW,Complex Paraphrase
+At what hour do your commercial premises initiate business on Saturdays?,store_opening_hours,IN_DOMAIN,LOW,Complex Paraphrase
+Could you direct me toward your nearest brick-and-mortar outlet?,store_location,IN_DOMAIN,LOW,Complex Paraphrase
+What tariff is levied for expedited parcel conveyance?,shipping_costs,IN_DOMAIN,LOW,Complex Paraphrase
+Are you still stocking the crimson silk dress in size small?,availability,IN_DOMAIN,LOW,Complex Paraphrase
+Provide me with an exhaustive breakdown of the features of this tablet.,product_information,IN_DOMAIN,LOW,Complex Paraphrase
+When will your semi-annual promotional clearance commence?,sales_period,IN_DOMAIN,LOW,Complex Paraphrase
+What is the estimated chronological duration for delivery to occur?,delivery_time,IN_DOMAIN,LOW,Complex Paraphrase
+Kindly elaborate upon the statutory provisions governing item returns.,return_policy,IN_DOMAIN,LOW,Complex Paraphrase
+What formal stipulations apply if I seek reimbursement of funds?,refund_policy,IN_DOMAIN,LOW,Complex Paraphrase
+What transactional mechanisms are supported upon final checkout?,payment_methods,IN_DOMAIN,LOW,Complex Paraphrase
+I desire to register observations regarding the demeanor of staff.,submit_feedback,IN_DOMAIN,LOW,Complex Paraphrase
+I possess a conceptual recommendation for catalog diversification.,submit_product_idea,IN_DOMAIN,LOW,Complex Paraphrase
+Instruct me on the operational mechanics of your smartphone interface.,use_app,IN_DOMAIN,LOW,Complex Paraphrase
+Include an additional pair of wireless earbuds in my order bundle.,add_product,IN_DOMAIN,LOW,Complex Paraphrase
+Eliminate the superfluous charging cable from my current bag.,remove_product,IN_DOMAIN,LOW,Complex Paraphrase
+Ascertain the current transit phase of my ordered luggage.,track_delivery,IN_DOMAIN,LOW,Complex Paraphrase
+Is inventory of the ceramic mug maintained at the regional depot?,availability_in_store,IN_DOMAIN,LOW,Complex Paraphrase
+Can this electronic peripheral be acquired via your digital shop?,availability_online,IN_DOMAIN,LOW,Complex Paraphrase
+What operational schedule governs your support staff during festive periods?,store_opening_hours,IN_DOMAIN,LOW,Complex Paraphrase
+What expenditure is incurred if I choose rapid dispatch?,shipping_costs,IN_DOMAIN,LOW,Complex Paraphrase
+I wish to view archival records of my settled customer invoices.,order_history,IN_DOMAIN,LOW,Complex Paraphrase
+Enumerate the technical attributes and battery capacity of this gadget.,product_information,IN_DOMAIN,LOW,Complex Paraphrase
+How many diurnal cycles are required before the shipment arrives?,delivery_time,IN_DOMAIN,LOW,Complex Paraphrase
+Do cross-border freight charges apply for shipments to Mexico?,shipping_costs,IN_DOMAIN,LOW,Complex Paraphrase
+When are the seasonal markdown percentages going to take effect?,sales_period,IN_DOMAIN,LOW,Complex Paraphrase
+Connect my conversation with an official customer relations desk.,customer_service,IN_DOMAIN,LOW,Complex Paraphrase
+May I settle the outstanding amount utilizing digital wallet solutions?,payment_methods,IN_DOMAIN,LOW,Complex Paraphrase
+Do you entertain split payments across separate payment cards?,payment_methods,IN_DOMAIN,LOW,Complex Paraphrase
+Allow me to submit a formal evaluation of your service excellence.,submit_feedback,IN_DOMAIN,LOW,Complex Paraphrase
+How may one install the software application upon a mobile handset?,use_app,IN_DOMAIN,LOW,Complex Paraphrase
+Trace the geographical dispatch milestones of my package.,track_delivery,IN_DOMAIN,LOW,Complex Paraphrase
+What guarantees protect this blender against mechanical faults?,product_information,IN_DOMAIN,LOW,Complex Paraphrase
+Are evening shopping hours extended during the winter festival?,store_opening_hours,IN_DOMAIN,LOW,Complex Paraphrase
+wher is my prcl trckng numbr?,track_delivery,IN_DOMAIN,LOW,Typo / Noise
+hw to view my ordr histry from yestrday?,order_history,IN_DOMAIN,LOW,Typo / Noise
+wat time does ur stor open on mondys?,store_opening_hours,IN_DOMAIN,LOW,Typo / Noise
+giv me the loction of nearest outlet,store_location,IN_DOMAIN,LOW,Typo / Noise
+how much r delvry shippin fees?,shipping_costs,IN_DOMAIN,LOW,Typo / Noise
+is the blu t-shrt stil in stck?,availability,IN_DOMAIN,LOW,Typo / Noise
+ned mor info abt this prduct pls,product_information,IN_DOMAIN,LOW,Typo / Noise
+whn dos the chrismas discunt sale start?,sales_period,IN_DOMAIN,LOW,Typo / Noise
+how mny days fr delivry arrivel?,delivery_time,IN_DOMAIN,LOW,Typo / Noise
+wats the rturn plicy for cloths?,return_policy,IN_DOMAIN,LOW,Typo / Noise
+how do i get a rfnd on canceld item?,refund_policy,IN_DOMAIN,LOW,Typo / Noise
+wat paymnt cards do u suport?,payment_methods,IN_DOMAIN,LOW,Typo / Noise
+wanna submti fedback bout bad store,submit_feedback,IN_DOMAIN,LOW,Typo / Noise
+i hav a prodct idea to shre,submit_product_idea,IN_DOMAIN,LOW,Typo / Noise
+how to use the app on my android fone?,use_app,IN_DOMAIN,LOW,Typo / Noise
+plz add this itm to my crt,add_product,IN_DOMAIN,LOW,Typo / Noise
+remov the secnd shrt from my bsket,remove_product,IN_DOMAIN,LOW,Typo / Noise
+trck my disptched parcel statuss,track_delivery,IN_DOMAIN,LOW,Typo / Noise
+is the watr bottl availble in shop?,availability_in_store,IN_DOMAIN,LOW,Typo / Noise
+can i ordr this onlin right now?,availability_online,IN_DOMAIN,LOW,Typo / Noise
+wat r the closng hrs on sundays?,store_opening_hours,IN_DOMAIN,LOW,Typo / Noise
+fast shippng chargs how much?,shipping_costs,IN_DOMAIN,LOW,Typo / Noise
+show me my old purcheses lst,order_history,IN_DOMAIN,LOW,Typo / Noise
+spcs and dimnsions of this tabl,product_information,IN_DOMAIN,LOW,Typo / Noise
+estmated delvry date for my pkg?,delivery_time,IN_DOMAIN,LOW,Typo / Noise
+intl shippin costs to austrlia?,shipping_costs,IN_DOMAIN,LOW,Typo / Noise
+wen is next flsh sale live?,sales_period,IN_DOMAIN,LOW,Typo / Noise
+i need halp from suport agnt,customer_service,IN_DOMAIN,LOW,Typo / Noise
+can i pay wth gpay or credt crd?,payment_methods,IN_DOMAIN,LOW,Typo / Noise
+do u accept binance or crupto paymnt?,payment_methods,IN_DOMAIN,LOW,Typo / Noise
+feedbck for ur webste servce,submit_feedback,IN_DOMAIN,LOW,Typo / Noise
+app is nt working prperly on moble,use_app,IN_DOMAIN,LOW,Typo / Noise
+wher is my shipmnt held up?,track_delivery,IN_DOMAIN,LOW,Typo / Noise
+is ther any waranty on this devce?,product_information,IN_DOMAIN,LOW,Typo / Noise
+stor opning time for tomorow?,store_opening_hours,IN_DOMAIN,LOW,Typo / Noise
+Help order,delivery_issue,IN_DOMAIN,LOW,Short & Ambiguous
+Status,track_delivery,IN_DOMAIN,LOW,Short & Ambiguous
+Package,track_delivery,IN_DOMAIN,LOW,Short & Ambiguous
+Receipt,order_history,IN_DOMAIN,LOW,Short & Ambiguous
+Store,store_location,IN_DOMAIN,LOW,Short & Ambiguous
+Hours,store_opening_hours,IN_DOMAIN,LOW,Short & Ambiguous
+Cost,shipping_costs,IN_DOMAIN,LOW,Short & Ambiguous
+In stock?,availability,IN_DOMAIN,LOW,Short & Ambiguous
+Specs,product_information,IN_DOMAIN,LOW,Short & Ambiguous
+Discount,sales_period,IN_DOMAIN,LOW,Short & Ambiguous
+When arrive?,delivery_time,IN_DOMAIN,LOW,Short & Ambiguous
+Return,return_policy,IN_DOMAIN,LOW,Short & Ambiguous
+Payment,payment_methods,IN_DOMAIN,LOW,Short & Ambiguous
+Feedback,submit_feedback,IN_DOMAIN,LOW,Short & Ambiguous
+App issue,use_app,IN_DOMAIN,LOW,Short & Ambiguous
+Add item,add_product,IN_DOMAIN,LOW,Short & Ambiguous
+Delete item,remove_product,IN_DOMAIN,LOW,Short & Ambiguous
+I have an inquiry.,customer_service,IN_DOMAIN,LOW,Short & Ambiguous
+My parcel is strange.,delivery_issue,IN_DOMAIN,LOW,Short & Ambiguous
+Can you help me?,customer_service,IN_DOMAIN,LOW,Short & Ambiguous
+Something is wrong with my account.,change_account,IN_DOMAIN,HIGH,Short & Ambiguous
+Order problem.,delivery_issue,IN_DOMAIN,LOW,Short & Ambiguous
+Item inquiry.,product_information,IN_DOMAIN,LOW,Short & Ambiguous
+Information please.,customer_service,IN_DOMAIN,LOW,Short & Ambiguous
+Where is it?,track_delivery,IN_DOMAIN,LOW,Short & Ambiguous
+When open?,store_opening_hours,IN_DOMAIN,LOW,Short & Ambiguous
+How much?,shipping_costs,IN_DOMAIN,LOW,Short & Ambiguous
+Assistance needed.,customer_service,IN_DOMAIN,LOW,Short & Ambiguous
+Can I pay?,payment_methods,IN_DOMAIN,LOW,Short & Ambiguous
+Delivery question.,delivery_time,IN_DOMAIN,LOW,Short & Ambiguous
+Online stock?,availability_online,IN_DOMAIN,LOW,Short & Ambiguous
+In store now?,availability_in_store,IN_DOMAIN,LOW,Short & Ambiguous
+Product details,product_information,IN_DOMAIN,LOW,Short & Ambiguous
+Promotion date,sales_period,IN_DOMAIN,LOW,Short & Ambiguous
+Check shopping bag,order_history,IN_DOMAIN,LOW,Short & Ambiguous
+I want a complete refund for order #99419 immediately.,request_refund,IN_DOMAIN,HIGH,High-Risk Safety
+Please issue a refund to my credit card right now.,request_refund,IN_DOMAIN,HIGH,High-Risk Safety
+I demand my money back for this defective toaster.,request_refund,IN_DOMAIN,HIGH,High-Risk Safety
+Where is the refund of $85 that you promised last week?,refund_status,IN_DOMAIN,HIGH,High-Risk Safety
+Check the status of my pending refund claim #3312.,refund_status,IN_DOMAIN,HIGH,High-Risk Safety
+Why has my refund not been processed after 14 days?,refund_status,IN_DOMAIN,HIGH,High-Risk Safety
+You double charged my Visa card for this transaction!,payment_issue,IN_DOMAIN,HIGH,High-Risk Safety
+There is a fraudulent charge of $240 on my account statement.,payment_issue,IN_DOMAIN,HIGH,High-Risk Safety
+My payment failed but money was deducted from my bank.,payment_issue,IN_DOMAIN,HIGH,High-Risk Safety
+Cancel my order #77124 immediately before it gets shipped.,cancel_order,IN_DOMAIN,HIGH,High-Risk Safety
+"I changed my mind, cancel my order and do not ship it.",cancel_order,IN_DOMAIN,HIGH,High-Risk Safety
+Please cancel all items in my recent order.,cancel_order,IN_DOMAIN,HIGH,High-Risk Safety
+I forgot my account password and need to reset it now.,recover_password,IN_DOMAIN,HIGH,High-Risk Safety
+Send a password recovery link to my registered email address.,recover_password,IN_DOMAIN,HIGH,High-Risk Safety
+"Someone unauthorized accessed my account, help me reset password.",recover_password,IN_DOMAIN,HIGH,High-Risk Safety
+Permanently close my customer account and delete all my data.,close_account,IN_DOMAIN,HIGH,High-Risk Safety
+I want to terminate my membership and delete my profile.,close_account,IN_DOMAIN,HIGH,High-Risk Safety
+Shut down my account with immediate effect.,close_account,IN_DOMAIN,HIGH,High-Risk Safety
+Change my registered primary email address to a new one.,change_account,IN_DOMAIN,HIGH,High-Risk Safety
+Update the telephone number and residential address on my account.,change_account,IN_DOMAIN,HIGH,High-Risk Safety
+The package arrived completely crushed and the screen is shattered.,damaged_delivery,IN_DOMAIN,HIGH,High-Risk Safety
+My delivery was thrown over the gate and the contents are broken.,damaged_delivery,IN_DOMAIN,HIGH,High-Risk Safety
+The box was delivered torn open and the perfume bottle is smashed.,damaged_delivery,IN_DOMAIN,HIGH,High-Risk Safety
+"The delivery box was empty when I opened it, the phone is missing!",missing_item,IN_DOMAIN,HIGH,High-Risk Safety
+One pair of shoes is completely missing from my multi-item order.,missing_item,IN_DOMAIN,HIGH,High-Risk Safety
+You failed to include the power adapter in the package.,missing_item,IN_DOMAIN,HIGH,High-Risk Safety
+You sent me a red sweater instead of the blue jacket I ordered.,wrong_item,IN_DOMAIN,HIGH,High-Risk Safety
+"The package contains someone else's order, this is the wrong item.",wrong_item,IN_DOMAIN,HIGH,High-Risk Safety
+I received men's boots instead of women's sneakers.,wrong_item,IN_DOMAIN,HIGH,High-Risk Safety
+"Under GDPR Article 16, I exercise my right to data rectification.",request_right_to_rectification,IN_DOMAIN,HIGH,High-Risk Safety
+I formally request correction of erroneous personal records in your database.,request_right_to_rectification,IN_DOMAIN,HIGH,High-Risk Safety
+I demand an immediate chargeback for unauthorized transaction #8812.,payment_issue,IN_DOMAIN,HIGH,High-Risk Safety
+Your billing department made an unauthorized withdrawal from my checking account.,payment_issue,IN_DOMAIN,HIGH,High-Risk Safety
+I need to dispute an incorrect billing surcharge of $50.,payment_issue,IN_DOMAIN,HIGH,High-Risk Safety
+Reverse the payment transaction #5521 immediately.,payment_issue,IN_DOMAIN,HIGH,High-Risk Safety
+I want to revoke my account credentials and erase payment cards.,close_account,IN_DOMAIN,HIGH,High-Risk Safety
+"My package was stolen from my porch, arrange a refund.",request_refund,IN_DOMAIN,HIGH,High-Risk Safety
+Refund the expedited shipping fee because delivery was late.,request_refund,IN_DOMAIN,HIGH,High-Risk Safety
+Cancel my subscription and refund the annual fee.,cancel_order,IN_DOMAIN,HIGH,High-Risk Safety
+"I cannot access my two-factor security token, reset login.",recover_password,IN_DOMAIN,HIGH,High-Risk Safety
+WHERE ON EARTH IS MY ORDER?! I HAVE WAITED 3 WEEKS AND THIS IS RIDICULOUS!,track_delivery,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+Your shipping service is an absolute nightmare! Where is my parcel?!,track_delivery,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+Why the hell are your physical store opening times wrong on the website?!,store_opening_hours,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+I drove 20 miles and your store was closed! What are your actual hours?!,store_opening_hours,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+Your shipping fees are an outrageous rip-off! Explain these fees!,shipping_costs,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+"I have sent four messages and nobody answers, pathetic customer service!",customer_service,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+"Your mobile application crashes every time I tap checkout, fix your garbage app!",use_app,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+Is it impossible for you people to keep popular items in stock?!,availability,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+Why does it take five days just to process a standard parcel?!,delivery_time,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+Your return policy is deliberately confusing and completely anti-consumer!,return_policy,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+I am sick and tired of waiting for someone to answer my tracking question!,track_delivery,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+This is the worst online shopping experience I have had all year!,customer_service,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+Why are you advertising discounts if the checkout code fails?!,sales_period,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+Your store location map gave me completely false driving directions!,store_location,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+"Stop wasting my time with useless automated bots, where is my package?!",track_delivery,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+I am completely furious about these unexpected shipping charges!,shipping_costs,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+Nobody in your company seems to know when products will be restocked!,availability,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+"Your return window is too short, I demand to know why!",return_policy,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+Why did you charge my card before even shipping the items?!,payment_methods,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+I demand an explanation for why this item has zero description online!,product_information,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+Your customer support representatives are rude and unhelpful!,customer_service,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+I am leaving a 1-star review everywhere for this horrific delivery delay!,submit_feedback,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+Can any human being at your company tell me where package #8821 is?!,track_delivery,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+Why are your store staff locking the doors twenty minutes before closing?!,store_opening_hours,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+Your delivery partner dropped my package in the rain! Track delivery #5512!,track_delivery,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+I will never purchase anything from this website again in my life!,submit_feedback,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+Why is express shipping twice as expensive as last month?!,shipping_costs,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+"Fix your mobile app immediately, it wiped out my entire saved cart!",use_app,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+Where is my purchase history?! The website shows zero orders!,order_history,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+"Your delivery timeline promised 2 days, today is day 6! Unacceptable!",delivery_time,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+Why is your local store out of stock of every single advertised shoe?!,availability_in_store,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+You people are running a fraudulent delivery network! Where is my item?!,track_delivery,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+Answer my simple question about store timings without giving me excuses!,store_opening_hours,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+Why is there no phone number to reach an actual human agent?!,human_agent,IN_DOMAIN,MEDIUM,Aggressive / Negative Emotion
+I am filing an official complaint with consumer protection about your service!,submit_feedback,IN_DOMAIN,LOW,Aggressive / Negative Emotion
+What is the weather forecast for Seattle tomorrow afternoon?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+Who won the men's singles tennis championship at Wimbledon?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+Write a Python function to compute the Fibonacci sequence recursively.,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+Can you explain how black holes warp spacetime according to Einstein?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+What ingredients are required to bake a classic apple pie?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+What is the capital city of Switzerland?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+Tell me an amusing joke about software developers.,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+What is the current price of Bitcoin on cryptocurrency exchanges?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+How does the human immune system generate antibodies?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+Can you translate 'Where is the library?' into Mandarin Chinese?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+How do electric car lithium-ion batteries function?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+Who composed the Moonlight Sonata in classical music?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+What is the speed of sound traveling through water at sea level?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+How do I cultivate organic tomatoes in a backyard greenhouse?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+What are the primary differences between Python and Rust?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+Can you write a short rhyming poem about autumn leaves?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+What are the symptoms of acute seasonal allergies?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+Who was the first president of the United States?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+How many planets in our solar system possess planetary rings?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+What causes lunar eclipses to appear red from Earth?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+Explain how neural networks perform backpropagation during training.,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+What are the rules of Texas Hold'em poker?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+Give me a five-day tourist itinerary for exploring Rome.,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+"How do airplanes manage pressurization in the cabin at 35,000 feet?",OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+What is the difference between nuclear fission and nuclear fusion?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+How do I brew cold brew coffee at home without special equipment?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+Who wrote the fantasy novel The Hobbit?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+What is the deepest freshwater lake on planet Earth?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+Can you explain the philosophical concept of utilitarianism?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+How does a telescope collect and focus electromagnetic radiation?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+What is the molecular formula of table sugar?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+How do seismologists calculate the epicenter of an earthquake?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+What exercises are best for training marathon endurance?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+Can you summarize the plot of George Orwell's 1984?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain
+What causes rainbows to form after a rain shower?,OUT_OF_DOMAIN,OUT_OF_DOMAIN,HIGH,Out-Of-Domain

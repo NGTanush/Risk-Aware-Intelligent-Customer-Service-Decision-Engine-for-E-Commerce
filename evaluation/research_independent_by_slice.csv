@@ -1,0 +1,8 @@
+Slice,Count,Automated,Clarified,Escalated,Coverage (%),Mean Confidence (%)
+Aggressive / Negative Emotion,35,10,12,13,28.57,66.76
+Complex Paraphrase,35,8,8,19,22.86,64.9
+High-Risk Safety,40,1,2,37,2.5,74.56
+Normal In-Domain,35,12,15,8,34.29,72.4
+Out-Of-Domain,35,5,13,17,14.29,59.83
+Short & Ambiguous,35,8,7,20,22.86,57.02
+Typo / Noise,35,5,10,20,14.29,54.94

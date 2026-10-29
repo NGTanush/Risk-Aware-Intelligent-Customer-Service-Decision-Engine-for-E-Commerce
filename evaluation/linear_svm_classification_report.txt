@@ -1,0 +1,52 @@
+                                precision    recall  f1-score   support
+
+                   add_product       1.00      1.00      1.00       191
+                  availability       0.99      0.99      0.99       194
+         availability_in_store       0.99      1.00      0.99       151
+           availability_online       1.00      0.99      1.00       199
+                  cancel_order       0.99      0.99      0.99       199
+                change_account       0.97      0.99      0.98       197
+                  change_order       1.00      1.00      1.00       192
+                 close_account       0.99      0.97      0.98       199
+              customer_service       1.00      1.00      1.00       198
+              damaged_delivery       0.98      0.99      0.99       198
+                delivery_issue       1.00      0.99      0.99       199
+                 delivery_time       1.00      1.00      1.00       184
+              exchange_product       0.99      0.99      0.99       198
+     exchange_product_in_store       0.99      0.98      0.98       198
+                   human_agent       1.00      0.99      1.00       199
+                  missing_item       1.00      0.99      1.00       144
+                  open_account       1.00      0.98      0.99       197
+                 order_history       1.00      0.99      1.00       198
+                           pay       0.98      0.99      0.99       198
+                 payment_issue       0.99      1.00      1.00       199
+               payment_methods       1.00      0.99      1.00       199
+           product_information       1.00      1.00      1.00       197
+                 product_issue       0.99      0.99      0.99       199
+              recover_password       1.00      1.00      1.00       199
+                 refund_policy       0.99      0.99      0.99       199
+                 refund_status       0.98      0.98      0.98       200
+                remove_product       1.00      1.00      1.00       199
+               request_invoice       1.00      0.98      0.99       200
+                request_refund       0.98      1.00      0.99       191
+request_right_to_rectification       1.00      1.00      1.00       198
+                 return_policy       0.99      0.96      0.98       199
+                return_product       0.97      0.98      0.98       199
+       return_product_in_store       0.98      0.99      0.98       199
+         return_product_online       0.98      0.98      0.98       199
+                  sales_period       0.99      1.00      0.99       199
+                shipping_costs       1.00      0.99      0.99       195
+                store_location       0.99      1.00      1.00       185
+           store_opening_hours       1.00      0.99      1.00       198
+               submit_feedback       0.98      0.99      0.98       198
+       submit_product_feedback       0.98      0.99      0.98       199
+           submit_product_idea       0.99      0.97      0.98       199
+               technical_issue       1.00      1.00      1.00       199
+                track_delivery       0.93      0.99      0.96       199
+                   track_order       0.99      0.92      0.96       198
+                       use_app       1.00      1.00      1.00       200
+                    wrong_item       0.99      0.99      0.99       199
+
+                      accuracy                           0.99      8977
+                     macro avg       0.99      0.99      0.99      8977
+                  weighted avg       0.99      0.99      0.99      8977

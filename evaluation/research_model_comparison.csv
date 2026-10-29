@@ -1,0 +1,5 @@
+Model,Accuracy,Macro Precision,Macro Recall,Macro F1,Test Samples
+Multinomial Naive Bayes,0.975159,0.976728,0.97516,0.975169,8977
+Logistic Regression,0.986187,0.986629,0.98634,0.986305,8977
+Linear SVM (Uncalibrated),0.990866,0.991081,0.990977,0.990954,8977
+Calibrated Linear SVM,0.990309,0.990489,0.990431,0.990411,8977

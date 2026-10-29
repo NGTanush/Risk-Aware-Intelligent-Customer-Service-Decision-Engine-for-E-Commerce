@@ -1,0 +1,6 @@
+System Variant,Total Test Queries,Automated Count,Escalated Count,False Automation (OOD/High Risk),Automation Safety Rate (%)
+Variant A: Raw Intent Classifier Only,10,10,0,7,30.0
+Variant B: + Confidence Calibration,10,5,5,2,80.0
+Variant C: + OOD Detection,10,5,5,2,80.0
+Variant D: + Sentiment Analysis,10,5,5,2,80.0
+Variant E: Full System (Hard High-Risk Policy + Decision Engine),10,3,7,0,100.0

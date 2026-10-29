@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Customer Service AI | Intent Pipeline & Assistant</title>
+    <meta name="description" content="Intelligent E-Commerce Customer Service Assistant powered by NLP, TF-IDF, and Linear SVM intent classification with probability calibration.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- HEADER -->
+        <header class="app-header">
+            <div class="header-brand">
+                <div class="brand-logo">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </div>
+                <div class="brand-info">
+                    <h1>E-Commerce Service AI</h1>
+                    <p class="subtitle"><span class="badge-ml">Linear SVM Classifier</span> <span class="badge-pipe">TF-IDF Vectorized</span></p>
+                </div>
+            </div>
+            
+            <div class="header-metrics">
+                <div class="metric-pill">
+                    <span class="metric-label">Model Accuracy</span>
+                    <span class="metric-val" id="metric-accuracy">99.1%</span>
+                </div>
+                <div class="metric-pill">
+                    <span class="metric-label">Intents Scope</span>
+                    <span class="metric-val" id="metric-intents">46 Classes</span>
+                </div>
+                <button id="theme-toggle" class="btn-icon" title="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </div>
+        </header>
+
+        <!-- MAIN LAYOUT -->
+        <div class="main-layout">
+            <!-- SIDEBAR: CONTROLS & MODEL ARCHITECTURE -->
+            <aside class="app-sidebar">
+                <div class="sidebar-card">
+                    <div class="card-header">
+                        <h3><i class="fa-solid fa-sliders"></i> Decision Threshold</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="threshold-slider-box">
+                            <div class="slider-info">
+                                <span>Confidence Cutoff</span>
+                                <strong id="threshold-display">70%</strong>
+                            </div>
+                            <input type="range" id="threshold-slider" min="0.40" max="0.95" step="0.05" value="0.70">
+                            <p class="slider-hint"><i class="fa-solid fa-circle-info"></i> Queries below this threshold trigger human escalation.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sidebar-card">
+                    <div class="card-header">
+                        <h3><i class="fa-solid fa-diagram-project"></i> Classification Pipeline</h3>
+                    </div>
+                    <div class="card-body">
+                        <ol class="pipeline-steps-mini">
+                            <li class="p-step">
+                                <span class="step-num">1</span>
+                                <div class="step-text"><strong>NLP Preprocessing</strong><small>Tokenization & Text Cleaning</small></div>
+                            </li>
+                            <li class="p-step">
+                                <span class="step-num">2</span>
+                                <div class="step-text"><strong>TF-IDF Vectorizer</strong><small>20,000 N-gram Features</small></div>
+                            </li>
+                            <li class="p-step">
+                                <span class="step-num">3</span>
+                                <div class="step-text"><strong>Linear SVM Classifier</strong><small>Hyperplane Decision Margin</small></div>
+                            </li>
+                            <li class="p-step">
+                                <span class="step-num">4</span>
+                                <div class="step-text"><strong>Confidence Calibration</strong><small>Platt Scaling / Probabilities</small></div>
+                            </li>
+                            <li class="p-step">
+                                <span class="step-num">5</span>
+                                <div class="step-text"><strong>Decision Layer</strong><small>High vs Low Confidence Gate</small></div>
+                            </li>
+                            <li class="p-step">
+                                <span class="step-num">6</span>
+                                <div class="step-text"><strong>Response Generator</strong><small>Intent-Bounded AI Response</small></div>
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="sidebar-card">
+                    <div class="card-header">
+                        <h3><i class="fa-solid fa-bolt"></i> Sample Test Queries</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="sample-chips">
+                            <button class="chip-btn" data-query="Where is my order?">"Where is my order?"</button>
+                            <button class="chip-btn" data-query="I want to cancel order #98231">"Cancel order #98231"</button>
+                            <button class="chip-btn" data-query="How can I request a refund for item #4412?">"Request a refund"</button>
+                            <button class="chip-btn" data-query="Can I change my shipping address for order 123?">"Change delivery address"</button>
+                            <button class="chip-btn low-conf" data-query="I have a problem with something.">"I have a problem..." (Low Conf)</button>
+                            <button class="chip-btn low-conf" data-query="asdfghjkl random inquiry">"Gibberish / Out of scope"</button>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- MAIN WORKSPACE -->
+            <main class="app-main">
+                <!-- TAB NAVIGATION -->
+                <div class="tab-nav">
+                    <button class="tab-btn active" data-tab="tab-chat"><i class="fa-solid fa-comments"></i> Customer Support Chat</button>
+                    <button class="tab-btn" data-tab="tab-trace"><i class="fa-solid fa-microscope"></i> Live Pipeline Inspector</button>
+                    <button class="tab-btn" data-tab="tab-intents"><i class="fa-solid fa-list-check"></i> Intent Matrix (46)</button>
+                </div>
+
+                <!-- TAB 1: CUSTOMER CHAT -->
+                <div class="tab-content active" id="tab-chat">
+                    <div class="chat-wrapper">
+                        <!-- CHAT MESSAGES CONTAINER -->
+                        <div class="chat-messages" id="chat-messages">
+                            <!-- WELCOME MESSAGE -->
+                            <div class="message msg-bot">
+                                <div class="avatar"><i class="fa-solid fa-headset"></i></div>
+                                <div class="msg-content">
+                                    <div class="msg-header">
+                                        <span class="bot-name">Customer Service Assistant</span>
+                                        <span class="msg-time">Just now</span>
+                                    </div>
+                                    <div class="msg-body">
+                                        Hello! Welcome to our E-Commerce Store Support. How can I assist you with your orders, shipping, returns, or product inquiries today?
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- CHAT INPUT BAR -->
+                        <div class="chat-input-area">
+                            <form id="chat-form">
+                                <input type="text" id="chat-input" placeholder="Type your e-commerce question here..." autocomplete="off" required>
+                                <button type="submit" id="send-btn" class="btn-primary">
+                                    <span>Send</span> <i class="fa-solid fa-paper-plane"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 2: PIPELINE INSPECTOR -->
+                <div class="tab-content" id="tab-trace">
+                    <div class="inspector-wrapper">
+                        <div class="inspector-header">
+                            <h2><i class="fa-solid fa-diagram-next"></i> Live Intent Pipeline Trace</h2>
+                            <p>Real-time technical visualization of NLP preprocessing, TF-IDF vectorization, Linear SVM classification, confidence calibration, and decision rules for the active query.</p>
+                        </div>
+
+                        <div id="inspector-placeholder" class="inspector-empty">
+                            <i class="fa-solid fa-magnifying-glass-chart"></i>
+                            <p>Send a question in the chat to view its complete step-by-step pipeline execution trace!</p>
+                        </div>
+
+                        <div id="inspector-content" class="inspector-grid hidden">
+                            <!-- STEP 1: NLP -->
+                            <div class="trace-card">
+                                <div class="trace-badge">Step 1</div>
+                                <h3><i class="fa-solid fa-font"></i> NLP Preprocessing</h3>
+                                <div class="trace-details">
+                                    <div class="trace-row"><span>Original Query:</span> <strong id="t-orig-query">-</strong></div>
+                                    <div class="trace-row"><span>Cleaned Text:</span> <code id="t-clean-text">-</code></div>
+                                    <div class="trace-row"><span>Tokens Count:</span> <span id="t-tokens-count" class="pill-stat">0</span></div>
+                                    <div class="tokens-flex" id="t-tokens-list"></div>
+                                </div>
+                            </div>
+
+                            <!-- STEP 2: TF-IDF -->
+                            <div class="trace-card">
+                                <div class="trace-badge">Step 2</div>
+                                <h3><i class="fa-solid fa-network-wired"></i> TF-IDF Vectorization</h3>
+                                <div class="trace-details">
+                                    <div class="trace-row"><span>Vocabulary Dimension:</span> <strong>20,000 features</strong></div>
+                                    <div class="trace-row"><span>Active Non-Zero Features:</span> <span id="t-tfidf-count" class="pill-stat">0</span></div>
+                                    <div class="top-features-list" id="t-tfidf-features"></div>
+                                </div>
+                            </div>
+
+                            <!-- STEP 3 & 4: LINEAR SVM -->
+                            <div class="trace-card">
+                                <div class="trace-badge">Steps 3 & 4</div>
+                                <h3><i class="fa-solid fa-chart-bar"></i> Linear SVM Margins</h3>
+                                <div class="trace-details">
+                                    <div class="trace-row"><span>Predicted Intent:</span> <strong id="t-svm-intent" class="intent-tag">-</strong></div>
+                                    <div class="trace-row"><span>Max Hyperplane Margin:</span> <span id="t-svm-margin">-</span></div>
+                                    <div class="margin-bars" id="t-svm-margins-list"></div>
+                                </div>
+                            </div>
+
+                            <!-- STEP 5 & 6: CALIBRATION & DECISION -->
+                            <div class="trace-card">
+                                <div class="trace-badge">Steps 5 & 6</div>
+                                <h3><i class="fa-solid fa-shield-halved"></i> Calibration & Decision</h3>
+                                <div class="trace-details">
+                                    <div class="trace-row"><span>Calibrated Confidence:</span> <strong id="t-cal-score" class="conf-highlight">-</strong></div>
+                                    <div class="trace-row"><span>Active Threshold:</span> <span id="t-threshold-val">70%</span></div>
+                                    <div class="trace-row"><span>Decision Gate:</span> <span id="t-decision-gate" class="gate-status">-</span></div>
+                                    <div class="confidence-bar-container">
+                                        <div class="confidence-bar-fill" id="t-conf-bar"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TAB 3: INTENT DIRECTORY -->
+                <div class="tab-content" id="tab-intents">
+                    <div class="intents-wrapper">
+                        <div class="intents-header">
+                            <div>
+                                <h2><i class="fa-solid fa-layer-group"></i> Customer Service Intents Directory</h2>
+                                <p>All 46 e-commerce intent classes trained into the Linear SVM Classifier with 99.1% F1 accuracy.</p>
+                            </div>
+                            <input type="text" id="intents-search" placeholder="Search intents..." class="search-input">
+                        </div>
+
+                        <div class="intents-grid" id="intents-grid">
+                            <!-- Populated dynamically -->
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

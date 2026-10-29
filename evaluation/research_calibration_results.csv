@@ -1,0 +1,2 @@
+Model,Mean Predicted Confidence,Top-1 Binary Brier Score,Multiclass Brier Score,Expected Calibration Error (ECE),Uncalibrated Softmax ECE,Test Macro F1,Accuracy
+Calibrated Linear SVM (Platt Scaling),0.9743,0.007165,0.01524,0.016916,0.756808,0.990411,0.990309

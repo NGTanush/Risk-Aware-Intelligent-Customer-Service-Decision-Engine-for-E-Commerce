@@ -1,0 +1,10 @@
+Detection Method,In-Domain Coverage (%),In-Domain Selective Accuracy (%),OOD Rejection Rate (%),OOD False-Acceptance Rate (%),OOD Falsely Accepted Count,Total OOD Tested
+Confidence Only (tau=0.50),99.65,99.26,49.0,51.0,51,100
+Confidence Only (tau=0.70),98.57,99.57,73.0,27.0,27,100
+Confidence Only (tau=0.85),97.58,99.77,80.0,20.0,20,100
+Confidence Only (tau=0.90),96.75,99.8,86.0,14.0,14,100
+Confidence Only (tau=0.95),94.71,99.89,94.0,6.0,6,100
+Cosine Similarity Only (tau_sim=0.15),98.5,99.2,1.0,99.0,99,100
+Cosine Similarity Only (tau_sim=0.25),98.5,99.2,4.0,96.0,96,100
+Cosine Similarity Only (tau_sim=0.35),98.5,99.2,21.0,79.0,79,100
+Combined System (Conf + Sim + Lexical),73.89,99.51,40.0,60.0,60,100

@@ -1,0 +1,9 @@
+Category,Total Scenarios,Automated,Clarified,Escalated,Policy Compliance Rate (%),Mean Confidence (%)
+Ambiguous,7,1,5,1,71.43,68.35
+Angry / Negative,7,2,2,3,71.43,70.93
+High Risk,8,0,1,7,87.5,80.57
+Out-Of-Domain,8,0,1,7,87.5,56.43
+Paraphrase,7,3,2,2,28.57,76.59
+Short Query,7,1,1,5,57.14,70.34
+Standard In-Domain,8,7,0,1,87.5,90.73
+Typo / Noise,8,1,0,7,12.5,34.7

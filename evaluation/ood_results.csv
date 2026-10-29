@@ -1,0 +1,21 @@
+Query,Predicted Intent,Confidence,Confidence (%)
+What is the weather like today?,track_delivery,0.6323208418392382,63.23208418392382
+Who won the cricket match yesterday?,technical_issue,0.4081624481568168,40.81624481568168
+Write a Python program to sort a list.,pay,0.16339634092420302,16.3396340924203
+Explain quantum physics in simple words.,exchange_product_in_store,0.26088114695936115,26.088114695936117
+Tell me a funny joke.,product_information,0.630711962198104,63.071196219810396
+What is the capital of France?,track_delivery,0.5816336677807622,58.16336677807622
+How do I make chocolate cake?,pay,0.9731531520115186,97.31531520115186
+What are the best movies to watch?,product_information,0.9525524097325663,95.25524097325663
+Help me learn Spanish.,open_account,0.4718397254071448,47.18397254071448
+How does a car engine work?,return_policy,0.36457174036000095,36.4571740360001
+What is the current stock market doing?,availability,0.7234369854480105,72.34369854480104
+Can you write a poem for me?,store_location,0.3069979483864743,30.69979483864743
+What is artificial intelligence?,track_delivery,0.7255161528867827,72.55161528867828
+How do I prepare for an exam?,request_refund,0.3689954521978264,36.899545219782645
+Tell me about the solar system.,sales_period,0.5813742935710848,58.13742935710848
+What is the population of India?,track_delivery,0.5816336677807622,58.16336677807622
+How can I lose weight quickly?,pay,0.5101458637435692,51.01458637435692
+Give me a travel itinerary for Europe.,product_information,0.6608840304422932,66.08840304422931
+How do I fix my laptop?,track_delivery,0.38048720023634297,38.048720023634296
+What are today's football scores?,product_information,0.9320472906750821,93.20472906750821

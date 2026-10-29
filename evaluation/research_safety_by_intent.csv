@@ -1,0 +1,12 @@
+Intent,Total Queries,Automated,Escalated,Clarified,Mean Confidence,Max Confidence
+cancel_order,200,0,199,1,0.9741,0.9938
+change_account,198,0,198,0,0.9637,0.991
+close_account,201,0,201,0,0.9675,0.9932
+damaged_delivery,199,0,199,0,0.9713,0.9929
+missing_item,145,0,145,0,0.977,0.9937
+payment_issue,203,0,201,2,0.9701,0.9914
+recover_password,203,0,203,0,0.9811,0.9896
+refund_status,202,0,202,0,0.9612,0.9944
+request_refund,193,2,191,0,0.9762,0.9914
+request_right_to_rectification,199,0,199,0,0.9772,0.9907
+wrong_item,200,0,200,0,0.9678,0.9932
